@@ -1,0 +1,324 @@
+{
+ "panel": {
+  "states": 36,
+  "months": 118,
+  "rows": 4248,
+  "share_2019": 0.16,
+  "share_2023": 5.09,
+  "share_2026_ytd": 9.41
+ },
+ "crosscheck": {
+  "rows": 2849,
+  "states": 34,
+  "corr": 0.9999823348222958,
+  "sum_ours": 1726229,
+  "sum_copy": 1722176,
+  "exact_match_share": 0.8125658125658126
+ },
+ "chandigarh": {
+  "mar23_regs": 660,
+  "mar23_ev": 358,
+  "mar23_share": 54.2
+ },
+ "median_2023": {
+  "control": 2.16,
+  "paid": 7.94
+ },
+ "raw": {
+  "paid_2023": 5.53,
+  "ctrl_2023": 5.11,
+  "paid_2019": 0.2,
+  "ctrl_2019": 0.16
+ },
+ "main": {
+  "prespec_att": 2.003,
+  "att": 1.061,
+  "ci": [
+   -0.28,
+   2.507
+  ],
+  "ri_p": 0.137,
+  "pre": -0.887,
+  "lo_att": -0.026,
+  "lo_ci": [
+   -0.267,
+   0.256
+  ],
+  "lo_ri_p": 0.926,
+  "lo_pre": -0.344
+ },
+ "by_state": {
+  "UTTAR PRADESH": -0.97,
+  "CHHATTISGARH": -0.67,
+  "DELHI": 0.45,
+  "ODISHA": 1.34,
+  "MAHARASHTRA": 2.0,
+  "GOA": 4.21
+ },
+ "weighted": {
+  "att": 0.2848326520398756,
+  "att_base6": 0.6832550000561555,
+  "goa_weight": 0.009443488502144588
+ },
+ "chandigarh_blanked": {
+  "seven_state": 1.2372943014125075,
+  "alone": 2.881471261090816
+ },
+ "scale": {
+  "treated_mean_share_0_12": 4.551424889625031
+ },
+ "twfe": [
+  {
+   "run": "Pre-specified",
+   "y": "share",
+   "coef": 3.882,
+   "se": 1.309
+  },
+  {
+   "run": "Pre-specified",
+   "y": "logodds",
+   "coef": 0.684,
+   "se": 0.284
+  },
+  {
+   "run": "Headline",
+   "y": "share",
+   "coef": 3.39,
+   "se": 1.366
+  },
+  {
+   "run": "Headline",
+   "y": "logodds",
+   "coef": 0.626,
+   "se": 0.301
+  },
+  {
+   "run": "Headline, months 0 to 12 only",
+   "y": "share",
+   "coef": 1.947,
+   "se": 1.074
+  }
+ ],
+ "csdid": {
+  "lib": 1.0606564102564102,
+  "own": 1.060658846477729
+ },
+ "large_controls": {
+  "att": 0.6842701191597228,
+  "ri_p": 0.4447223611805903,
+  "n": 9,
+  "names": [
+   "ANDHRA PRADESH",
+   "BIHAR",
+   "HARYANA",
+   "KARNATAKA",
+   "KERALA",
+   "MADHYA PRADESH",
+   "TAMIL NADU",
+   "TELANGANA",
+   "WEST BENGAL"
+  ]
+ },
+ "robust": {
+  "Headline": {
+   "points": 1.061,
+   "pre_points": -0.887,
+   "logodds": -0.026,
+   "pre_logodds": -0.344
+  },
+  "Base is mean of last 6 months, not month -1": {
+   "points": 1.718,
+   "pre_points": -0.23,
+   "logodds": 0.259,
+   "pre_logodds": -0.058
+  },
+  "Drop Chhattisgarh": {
+   "points": 1.407,
+   "pre_points": -0.513,
+   "logodds": 0.009,
+   "pre_logodds": -0.297
+  },
+  "Drop Delhi": {
+   "points": 1.183,
+   "pre_points": -1.055,
+   "logodds": -0.05,
+   "pre_logodds": -0.338
+  },
+  "Drop Goa": {
+   "points": 0.431,
+   "pre_points": -0.753,
+   "logodds": -0.02,
+   "pre_logodds": -0.35
+  },
+  "Drop Maharashtra": {
+   "points": 0.872,
+   "pre_points": -1.015,
+   "logodds": -0.093,
+   "pre_logodds": -0.447
+  },
+  "Drop Odisha": {
+   "points": 1.004,
+   "pre_points": -0.966,
+   "logodds": -0.056,
+   "pre_logodds": -0.297
+  },
+  "Drop Uttar Pradesh": {
+   "points": 1.467,
+   "pre_points": -1.019,
+   "logodds": 0.054,
+   "pre_logodds": -0.333
+  },
+  "Drop Karnataka, Tamil Nadu from controls": {
+   "points": 1.193,
+   "pre_points": -0.964,
+   "logodds": -0.034,
+   "pre_logodds": -0.318
+  },
+  "Controls over 3 lakh 2W a year (9)": {
+   "points": 0.684,
+   "pre_points": -0.66,
+   "logodds": -0.177,
+   "pre_logodds": -0.285
+  },
+  "Chhattisgarh start Aug 2022": {
+   "points": 1.178,
+   "pre_points": -0.794,
+   "logodds": -0.019,
+   "pre_logodds": -0.343
+  },
+  "Chhattisgarh start Apr 2022, as first planned": {
+   "points": 1.524,
+   "pre_points": -0.444,
+   "logodds": 0.068,
+   "pre_logodds": -0.299
+  },
+  "Goa cut at end of first scheme, Jul 2022": {
+   "points": 0.915,
+   "pre_points": -0.887,
+   "logodds": 0.003,
+   "pre_logodds": -0.344
+  },
+  "Add 5 on-paper states (11), months 0 to 10": {
+   "points": 0.579,
+   "pre_points": -0.36,
+   "logodds": 0.131,
+   "pre_logodds": -0.202
+  },
+  "On-paper states only (5), months 0 to 10": {
+   "points": 0.309,
+   "pre_points": 0.271,
+   "logodds": 0.378,
+   "pre_logodds": -0.032
+  }
+ },
+ "impute": [
+  {
+   "outcome": "share",
+   "state_trends": false,
+   "att": 1.989,
+   "ri_p": 0.046
+  },
+  {
+   "outcome": "share",
+   "state_trends": true,
+   "att": 1.707,
+   "ri_p": 0.004
+  },
+  {
+   "outcome": "logodds",
+   "state_trends": false,
+   "att": 0.558,
+   "ri_p": 0.172
+  },
+  {
+   "outcome": "logodds",
+   "state_trends": true,
+   "att": 0.077,
+   "ri_p": 0.868
+  }
+ ],
+ "grid": [
+  {
+   "outcome": "share",
+   "spec": "CS, base month -1",
+   "att": 1.061,
+   "ri_p": 0.132,
+   "pre_m12_m7": -0.969,
+   "pre_m6_m2": -0.788
+  },
+  {
+   "outcome": "share",
+   "spec": "CS, base last 6 months",
+   "att": 1.718,
+   "ri_p": 0.01,
+   "pre_m12_m7": -0.312,
+   "pre_m6_m2": -0.131
+  },
+  {
+   "outcome": "share",
+   "spec": "CS, all post months",
+   "att": 2.455,
+   "ri_p": 0.021,
+   "pre_m12_m7": -0.969,
+   "pre_m6_m2": -0.788
+  },
+  {
+   "outcome": "logodds",
+   "spec": "CS, base month -1",
+   "att": -0.026,
+   "ri_p": 0.92,
+   "pre_m12_m7": -0.344,
+   "pre_m6_m2": -0.344
+  },
+  {
+   "outcome": "logodds",
+   "spec": "CS, base last 6 months",
+   "att": 0.259,
+   "ri_p": 0.4,
+   "pre_m12_m7": -0.059,
+   "pre_m6_m2": -0.057
+  },
+  {
+   "outcome": "logodds",
+   "spec": "CS, all post months",
+   "att": 0.018,
+   "ri_p": 0.955,
+   "pre_m12_m7": -0.344,
+   "pre_m6_m2": -0.344
+  }
+ ],
+ "placebo": {
+  "share": {
+   "att": 0.31168999346357124,
+   "ri_p": 0.295647823911956
+  },
+  "logodds": {
+   "att": 0.49180019140214104,
+   "ri_p": 0.2051025512756378
+  }
+ },
+ "placebo_outcome": {
+  "att": 0.060568957421840694,
+  "ri_p": 0.7053526763381691
+ },
+ "ri": {
+  "two_sided": 0.13656828414207103
+ },
+ "median_2026": {
+  "control": 5.13,
+  "paid": 11.71
+ },
+ "cost": {
+  "spend_low_cr": 80.3645,
+  "spend_high_cr": 175.925,
+  "extra_floored": 43596.421200000004,
+  "extra_unfloored": 18604.574900000003,
+  "rs_low": 18433.737859198405,
+  "rs_high": 94560.07511356789,
+  "avg_low": 5763.168274229984,
+  "avg_high": 12616.0851948797,
+  "additional_share_floored": 0.3126424124206677,
+  "additional_share_unfloored": 0.1334187306823479,
+  "goa_live_ev": 2623
+ }
+}
