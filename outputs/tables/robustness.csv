@@ -1,0 +1,16 @@
+check,points,pre_points,logodds,pre_logodds
+Headline,1.061,-0.887,-0.026,-0.344
+"Base is mean of last 6 months, not month -1",1.718,-0.23,0.259,-0.058
+Drop Chhattisgarh,1.407,-0.513,0.009,-0.297
+Drop Delhi,1.183,-1.055,-0.05,-0.338
+Drop Goa,0.431,-0.753,-0.02,-0.35
+Drop Maharashtra,0.872,-1.015,-0.093,-0.447
+Drop Odisha,1.004,-0.966,-0.056,-0.297
+Drop Uttar Pradesh,1.467,-1.019,0.054,-0.333
+"Drop Karnataka, Tamil Nadu from controls",1.193,-0.964,-0.034,-0.318
+Controls over 3 lakh 2W a year (9),0.684,-0.66,-0.177,-0.285
+Chhattisgarh start Aug 2022,1.178,-0.794,-0.019,-0.343
+"Chhattisgarh start Apr 2022, as first planned",1.524,-0.444,0.068,-0.299
+"Goa cut at end of first scheme, Jul 2022",0.915,-0.887,0.003,-0.344
+"Add 5 on-paper states (11), months 0 to 10",0.579,-0.36,0.131,-0.202
+"On-paper states only (5), months 0 to 10",0.309,0.271,0.378,-0.032

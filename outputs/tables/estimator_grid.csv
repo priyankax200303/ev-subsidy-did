@@ -1,0 +1,7 @@
+outcome,spec,att,ri_p,pre_m12_m7,pre_m6_m2
+share,"CS, base month -1",1.061,0.132,-0.969,-0.788
+share,"CS, base last 6 months",1.718,0.01,-0.312,-0.131
+share,"CS, all post months",2.455,0.021,-0.969,-0.788
+logodds,"CS, base month -1",-0.026,0.92,-0.344,-0.344
+logodds,"CS, base last 6 months",0.259,0.4,-0.059,-0.057
+logodds,"CS, all post months",0.018,0.955,-0.344,-0.344

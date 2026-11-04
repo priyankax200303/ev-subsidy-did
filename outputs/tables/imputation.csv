@@ -1,0 +1,5 @@
+outcome,state_trends,att,ri_p
+share,False,1.989,0.046
+share,True,1.707,0.004
+logodds,False,0.558,0.172
+logodds,True,0.077,0.868
